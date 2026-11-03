@@ -1,0 +1,87 @@
+/* NexHost public website — align the marketing experience with the existing client portal visual system. */
+:root{--bg:#080d1a;--bg-soft:#0b1425;--panel:#14233b;--panel-deep:#0e192d;--line:#2b4160;--text:#f2f6ff;--muted:#9aa9c2;--accent:#c8f542;--accent-hover:#b2df2e;--blue:#6b9cff}
+body{background:var(--bg);color:var(--text);font-family:'Space Grotesk',sans-serif}
+.site-header{background:#0b1425f2;border-bottom:1px solid #263550;box-shadow:0 12px 35px #0002}
+.brand{color:#f2f6ff}.brand-mark{background:var(--accent);color:#10182a;box-shadow:0 0 28px #c8f54245}
+.main-nav a,.login-link{color:#aab8ce}.main-nav a:hover,.login-link:hover{color:var(--accent)}
+.menu-toggle{border-color:#344b6c;background:#14233b}.menu-toggle span{background:#eaf1ff}
+.button{background:var(--accent);border-color:var(--accent);color:#111a2b;border-radius:9px;font-family:'Space Grotesk',sans-serif;box-shadow:none}
+.button:hover{background:var(--accent-hover);border-color:var(--accent-hover);box-shadow:0 10px 28px #c8f54225}
+.button-outline{background:transparent;border-color:#425a7c;color:#f2f6ff}.button-outline:hover{background:#1b2d49;border-color:var(--blue);color:#fff}
+.hero{background:radial-gradient(ellipse at 77% 34%,#152b50 0,transparent 42%),linear-gradient(125deg,#080d1a 35%,#0c1629 100%)}
+.hero:before{background-image:linear-gradient(#34476525 1px,transparent 1px),linear-gradient(90deg,#34476525 1px,transparent 1px)}
+.hero-glow{background:#4779df20}
+.hero h1,.section h2,.network-section h2,.faq-section h2,.closing-cta h2{color:#f2f6ff}
+.hero h1 em,.section h2 em,.network-section h2 em,.faq-section h2 em,.closing-cta h2 em{color:var(--accent)}
+.eyebrow{color:#8fa4c3}.status-dot,.server-label b{background:var(--accent);box-shadow:0 0 12px var(--accent)}
+.hero-lead,.section-heading>p,.center-heading p,.network-section p,.faq-section>p{color:var(--muted)}
+.hero-proof small{color:#8295b2}
+.avatar-stack i{border-color:#0c1629}
+.server-card{background:linear-gradient(145deg,#162641,#0c172b);border-color:#385477;box-shadow:0 35px 90px #0008,0 0 55px #4779df20}
+.server-label,.chart-head{color:#c0cde0}.live-pill{color:var(--accent);background:#c8f54216;border-color:#c8f5423b}
+.server-main small,.metric-row small{color:#93a7c6}.server-main h3{color:#f2f6ff}
+.server-icon{background:var(--accent);color:#10182a}
+.metric-row{border-color:#314461}.metric-row strong{color:#f2f6ff}.metric-row strong span{color:#a8b8d1}
+.chart-head span+span,.chart-foot{color:#8fa2c0}
+.chart-bars i{background:linear-gradient(0deg,#547ff0,var(--accent))}
+.floating-chip{background:#111f36;border-color:#405779;box-shadow:0 15px 40px #0005}
+.floating-chip b{color:#f2f6ff}.floating-chip small{color:#9aacc6}
+.chip-icon{background:var(--accent);color:#152039}.chip-icon.blue{background:#6b9cff;color:#091326}
+.trust-strip{border-color:#263650}.trust-strip>span{color:#7f91ad}.trust-strip b{color:#c0cde0}
+.section,.features-section{background:#080d1a}
+.plan-card,.feature-card,.product-range-grid article{background:linear-gradient(145deg,#14233b,#0e192d);border:1px solid #2b4160;border-radius:13px;box-shadow:0 14px 35px #0002;color:#f2f6ff}
+.plan-card:hover,.product-range-grid article:hover,.feature-card:hover{border-color:#6b9cff;box-shadow:0 22px 45px #0004}
+.plan-card.featured{border-color:var(--accent);box-shadow:0 0 0 1px #c8f54222,0 20px 60px #0003}
+.plan-tag,.includes{color:#8fa4c3}.plan-card h3,.feature-card h3,.product-range-grid h3{color:#f2f6ff}
+.plan-card>p,.check-list li,.feature-card p,.product-range-grid p{color:#9aabc4}
+.price strong{color:#f2f6ff}.price span,.fine-print{color:#8295b2}
+.popular-label{background:var(--accent);color:#111a2b}
+.plan-divider{background:#2a3e5a}.check-list li:before{color:var(--accent)}
+.domain-finder{background:linear-gradient(145deg,#14233b,#0e192d);color:#f2f6ff;border-top:1px solid #2b4160;border-bottom:1px solid #2b4160}
+.domain-finder .eyebrow{color:#8fa4c3}
+.domain-finder h2{color:#f2f6ff}.domain-finder h2 em{color:var(--accent)}
+.domain-finder p{color:#9aabc4}
+.domain-search{background:#0b1425;border:1px solid #385477;box-shadow:0 18px 45px #0003}
+.domain-search label{color:#8fa4c3}
+.domain-input-row input{background:#080d1a;border:1px solid #344b6c;color:#f2f6ff}
+.domain-input-row input::placeholder{color:#7187a7}
+.domain-input-row .button{background:var(--accent);color:#111a2b;border-color:var(--accent)}
+.domain-search>small{color:#8295b2}
+.domain-extensions span{background:#14233b;border:1px solid #344b6c;color:#c7d5e9}
+.domain-extensions b{color:var(--accent)}
+.product-range{background:#0b1425;color:#f2f6ff}
+.product-range .eyebrow{color:#8fa4c3}
+.product-range h2{color:#f2f6ff}.product-range h2 em{color:var(--accent)}
+.product-range-head>p{color:#9aabc4}
+.product-range-grid article>span{color:#8fa4c3}
+.product-range-grid a{color:var(--accent)}
+.feature-icon{background:var(--accent);color:#10182a;border-radius:10px}
+.feature-card>span{color:#8295b2}
+.network-section{background:#101d33}
+.network-section h2 em{color:var(--accent)}
+.network-panel{background:radial-gradient(ellipse at center,#233e65,#101b30 68%);border-color:#385071}
+.map-label{color:#d7e4f7}.map-label i{background:var(--accent);box-shadow:0 0 15px var(--accent)}
+.map-stat{background:#0a1426dd;border-color:#405b81}.map-stat strong{color:var(--accent)}.map-stat span{color:#9aabc4}
+.faq-section{background:#080d1a;color:#f2f6ff}
+.faq-section .eyebrow{color:#8fa4c3}.faq-section h2 em{color:var(--accent)}
+.faq-section p{color:#9aabc4}
+.faq-list details{border-color:#2a3e5a}
+.faq-list summary{color:#e8f0fc}.faq-list summary span{color:var(--accent)}
+.faq-list details p{color:#9aabc4}
+.closing-cta{background:linear-gradient(145deg,#14233b,#0e192d);border-top:1px solid #2b4160;color:#f2f6ff}
+.closing-cta .eyebrow{color:#8fa4c3}.closing-cta h2{color:#f2f6ff}.closing-cta h2 em{color:var(--accent)}
+.closing-inner p{color:#9aabc4}
+.button-light{background:var(--accent);border-color:var(--accent);color:#111a2b}
+.site-footer{background:#060a13;color:#f2f6ff}.footer-main>div:first-child p{color:#8596b1}
+.footer-links b{color:#7f91ad}.footer-links a{color:#c5d2e6}.footer-links a:hover{color:var(--accent)}
+.footer-bottom{border-color:#263550;color:#7f91ad}
+.text-link{color:#d8e2f2}.text-link span{color:var(--accent)}
+@media(max-width:700px){
+ .main-nav{background:#0b1425;border-color:#263550}
+ .menu-toggle{border-color:#344b6c;background:#14233b}
+ .menu-toggle span{background:#eaf1ff}
+ .domain-search{padding:18px}
+}
+@media(prefers-reduced-motion:reduce){
+ .plan-card,.feature-card,.product-range-grid article,.button{transition:none}
+}
