@@ -36,3 +36,118 @@
  .dash-topbar{height:54px;padding:0 13px}
  .dash-content{padding:16px 13px 35px}
 }
+
+/* Unified NexHost brand system: client portal now shares the public website's dark infrastructure theme. */
+.dashboard-body{background:#080d1a;color:#f2f6ff;font-family:'Space Grotesk',sans-serif}
+.sidebar{position:sticky;top:0;inset:auto;width:100%;height:auto;min-height:78px;padding:12px max(28px,calc((100vw - 1240px)/2));display:flex;flex-direction:row;align-items:center;gap:28px;background:#080d1a;border:0;border-bottom:1px solid #263550;box-shadow:0 12px 35px #0003}
+.sidebar .brand{padding:0;color:#f2f6ff;font:700 18px 'Space Grotesk',sans-serif;white-space:nowrap}
+.sidebar .brand-mark{width:35px;height:35px;border-radius:11px;background:#c8f542;color:#10182a;box-shadow:0 0 28px #c8f54245}
+.workspace-label{display:none}
+.side-nav{display:flex;flex:1;min-width:0;flex-direction:row;align-items:center;gap:5px;overflow-x:auto;scrollbar-width:none}
+.side-nav::-webkit-scrollbar{display:none}
+.side-link{white-space:nowrap;padding:10px 11px;border:1px solid transparent;border-radius:8px;background:transparent;color:#9aa9c2;font:600 10px 'Space Grotesk',sans-serif}
+.side-link span{font-size:13px;width:auto;color:#8196b7}
+.side-link:hover,.side-link.active{background:#14233b;border-color:#314969;color:#f2f6ff;box-shadow:none}
+.side-link.active{color:#c8f542}
+.side-link.active span{color:#c8f542}
+.sidebar-bottom{margin:0;display:flex;align-items:center}
+.help-card{display:none}
+.profile{width:auto;border:0;border-left:1px solid #263550;padding:0 0 0 14px;background:none;color:#f2f6ff;white-space:nowrap}
+.profile-avatar,.top-avatar{background:#c8f542;color:#10182a}
+.profile b{color:#f2f6ff}.profile small{color:#8295b2}.profile-more{display:none}
+.dashboard-main{margin:0;min-width:0;background:#080d1a}
+.dash-topbar{height:59px;padding:0 max(28px,calc((100vw - 1240px)/2));background:#0b1425;border-bottom:1px solid #263550}
+.breadcrumb{color:#8295b2}.breadcrumb b{color:#eaf1ff}.breadcrumb span{color:#50627e}
+.top-actions{gap:14px}.icon-button{background:#14233b;color:#c7d5e9;border:1px solid #2a405f}.icon-button i{background:#c8f542}
+.login-link{color:#aab8ce}.login-link:hover{color:#c8f542}
+.top-avatar{width:30px;height:30px}
+.sidebar-toggle{display:none}
+.dash-content{max-width:1300px;padding:30px 32px 70px}
+.sample-banner{background:#111f35;border:1px solid #2d4568;border-radius:9px;color:#a8b8d1;padding:12px 16px}
+.sample-banner span{color:#c8f542}
+.dash-heading .eyebrow{color:#8fa4c3}
+.dash-heading h1{font:700 32px/1.1 'Space Grotesk',sans-serif;letter-spacing:-1.5px;color:#f2f6ff}
+.dash-heading p{color:#9aa9c2;font-size:11px}
+.dash-heading .button,.button{background:#c8f542;border-color:#c8f542;color:#111a2b;border-radius:9px;font:700 10px 'Space Grotesk',sans-serif;transition:.25s}
+.dash-heading .button:hover,.button:hover{background:#b2df2e;border-color:#b2df2e;box-shadow:0 10px 28px #c8f54225;transform:translateY(-2px)}
+.stat-card,.panel{background:linear-gradient(145deg,#14233b,#0e192d);border:1px solid #2b4160;border-radius:13px;box-shadow:0 14px 35px #0002;color:#f2f6ff}
+.stat-card{padding:20px}
+.stat-card>span{color:#8fa4c3;font:500 8px 'DM Mono',monospace;letter-spacing:1px}
+.stat-card strong{font:700 29px 'Space Grotesk',sans-serif;color:#f2f6ff}
+.stat-card small{color:#91a4c0;font:9px 'DM Mono',monospace}
+.stat-card small.positive{color:#c8f542}
+.panel{padding:22px}
+.panel-heading h2,.support-grid h2,.tool-card h2,.security-card h2{font:700 15px 'Space Grotesk',sans-serif;color:#f2f6ff}
+.panel-heading p{color:#879bb8;font:9px 'DM Mono',monospace}
+.subtle-button{color:#c8f542;font:600 9px 'DM Mono',monospace}
+.subtle-button:hover{color:#e1ff80}
+.service-row,.ticket-line{border-color:#2a3e5a}
+.service-symbol{background:#203c66;color:#9fc1ff;border-radius:9px}
+.service-symbol.purple{background:#322b57;color:#c4b5fd}
+.service-symbol.green{background:#173f3a;color:#80e3bd}
+.service-info b,.ticket-line b,.timeline b{color:#e8f0fc}
+.service-info small,.ticket-line small,.timeline small{color:#879bb8}
+.state-pill{color:#c8f542;background:#c8f54218;border:1px solid #c8f54238}
+.state-pill.warning{color:#f3c36b;background:#f3c36b15;border-color:#f3c36b35}
+.invoice-icon,.tool-card>span{background:#203b64;color:#a8c8ff}
+.invoice-amount{color:#f2f6ff;font:700 38px 'Space Grotesk',sans-serif}
+.invoice-date,.invoice-line{color:#91a4c0}
+.invoice-line b{color:#e8f0fc}
+.invoice-divider{background:#2a3e5a}
+.button-outline,.full-button{background:transparent;color:#f2f6ff;border-color:#425a7c}
+.button-outline:hover,.full-button:hover{background:#1b2d49;border-color:#6b9cff;color:#fff}
+.timeline>div:not(:last-child):before{background:#385170}
+.timeline i{background:#c8f542;box-shadow:0 0 10px #c8f54266}
+.support-panel{background:radial-gradient(ellipse at 90% 10%,#243f66,#14233b 70%);border-color:#385477}
+.support-panel h3{color:#f2f6ff}
+.support-panel p,.support-grid p,.tool-card p,.security-card p{color:#9aabc2}
+.support-icon{background:#c8f542;color:#111a2b;border-radius:10px}
+.table-search{background:#0c1729;border-color:#344b6c;color:#f2f6ff}
+.table-search:focus{border-color:#c8f542}
+.table-row{border-color:#2a3e5a;color:#9aabc2}
+.table-row b{color:#e8f0fc}
+.table-head{color:#7187a7}
+.table-row button{color:#c8f542}
+.tool-card,.security-card{background:linear-gradient(145deg,#14233b,#0e192d)}
+.toast{background:#14233b;border-color:#425a7c;color:#f2f6ff}
+.dash-view.active{animation:client-enter .4s ease both}
+@media(max-width:1000px){
+ .sidebar{padding:11px 18px;gap:12px}
+ .side-link{padding:9px 9px;font-size:9px}
+ .dash-topbar{padding:0 20px}
+ .dash-content{padding:24px 20px 55px}
+}
+@media(max-width:700px){
+ .sidebar{position:sticky;top:0;transform:none!important;width:100%;min-height:0;height:auto;padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px;box-shadow:0 8px 25px #0004}
+ .sidebar .brand{padding:0 4px 0 0;font-size:15px}
+ .sidebar .brand-mark{width:29px;height:29px}
+ .side-nav{order:3;flex-basis:100%;width:100%;overflow-x:auto;padding:3px 0 1px}
+ .side-link{padding:8px 10px;font-size:9px}
+ .sidebar-bottom{margin-left:auto}
+ .profile{padding:0;border:0}
+ .profile>span:nth-child(2){display:none}
+ .profile-avatar{width:29px;height:29px}
+ .dashboard-main{margin:0}
+ .dash-topbar{height:54px;padding:0 13px}
+ .dash-content{padding:16px 13px 35px}
+ .dash-heading h1{font-size:25px}
+ .dash-heading .button{min-height:38px}
+ .stat-grid{gap:8px}
+ .stat-card{padding:13px}
+ .stat-card strong{font-size:22px}
+ .dash-columns,.lower-columns,.support-grid{grid-template-columns:1fr}
+ .panel{padding:15px}
+ .service-row{gap:7px}
+ .service-info b{font-size:8px}
+ .service-info small{font-size:7px}
+ .state-pill{font-size:6px}
+ .table-panel{padding:14px}
+ .panel-heading{align-items:flex-start}
+ .table-search{width:125px}
+ .ticket-line{gap:9px}
+ .ticket-line b{font-size:8px}
+ .tool-grid,.security-grid{grid-template-columns:1fr}
+ .tool-card,.security-card{min-height:150px}
+ .top-actions .login-link{display:inline-block;font-size:8px;white-space:nowrap}
+}
+@media(prefers-reduced-motion:reduce){.dash-view.active{animation:none}}
