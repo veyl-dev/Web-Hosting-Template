@@ -4,7 +4,7 @@ A responsive front-end template for hosting providers, domain registrars, VPS br
 
 ## Included
 - Public marketing website with hosting plans, product sections, network status, FAQ, and domain/hosting sales entry points.
-- Customer portal: overview, services, domains, invoices, and support.
+- Customer portal: overview, services, domains, invoices, support, file manager shortcut, databases, FTP, cron jobs, PHP settings, staging, DNS records, SSL status, backups, malware scanning, and firewall status.
 - Separate admin console: overview, customers, hosting services, domains, servers/nodes, support tickets, billing/invoices, and settings.
 - Responsive desktop and mobile layouts.
 - Demo interactions: monthly/yearly price switch, navigation, search/filter, and demo action notices.
