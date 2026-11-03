@@ -32,3 +32,7 @@
 .admin-link.active,.side-link.active{box-shadow:inset 3px 0 #e85b32}
 @media(max-width:1000px){.sidebar,.admin-sidebar{width:205px}.dashboard-main,.admin-main{margin-left:205px}.dash-content,.admin-content{padding:22px 19px 42px}}
 @media(max-width:700px){.sidebar,.admin-sidebar{width:250px}.dashboard-main,.admin-main{margin-left:0}.dash-topbar,.admin-top{height:58px;padding:0 13px}.dash-content,.admin-content{padding:18px 13px 35px}.panel,.admin-panel{padding:15px}}
+
+@keyframes panel-enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.dash-view.active,.admin-view.active{animation:panel-enter .34s cubic-bezier(.2,.7,.2,1) both}
+@media(prefers-reduced-motion:reduce){.dash-view.active,.admin-view.active{animation:none}}
