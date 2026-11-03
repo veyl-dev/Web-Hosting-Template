@@ -6,3 +6,33 @@
 @media(max-width:700px){.sidebar{transform:translateX(-100%);transition:transform .25s;width:260px;box-shadow:12px 0 35px #10294d22}.sidebar.sidebar-open{transform:translateX(0)}.dashboard-main{margin-left:0}.dash-topbar{height:60px;padding:0 14px;gap:12px}.sidebar-toggle{display:block;border:1px solid #dce5f0;background:#fff;color:#344b69;font-size:16px;border-radius:8px;padding:6px 9px}.breadcrumb{margin-right:auto}.dash-content{padding:18px 13px 35px}.sample-banner{line-height:1.7}.dash-heading{align-items:flex-start;flex-direction:column}.dash-heading h1{font-size:24px}.dash-heading .button{min-height:36px}.stat-grid{gap:8px}.stat-card{padding:13px}.stat-card strong{font-size:22px}.stat-card>span{font-size:7px}.dash-columns,.lower-columns,.support-grid{grid-template-columns:1fr}.panel{padding:15px}.service-row{gap:7px}.service-info b{font-size:8px}.service-info small{font-size:7px}.state-pill{font-size:6px}.table-panel{padding:14px}.panel-heading{align-items:flex-start}.table-search{width:125px}.ticket-line{gap:9px}.ticket-line b{font-size:8px}.tool-grid,.security-grid{grid-template-columns:1fr}.tool-card,.security-card{min-height:150px}.top-actions .login-link{display:inline-block;font-size:8px;white-space:nowrap}}
 @media(max-width:370px){.stat-grid{grid-template-columns:1fr 1fr}.stat-card{padding:10px}.table-search{width:105px}.service-symbol{width:27px;height:27px}}
 @media(prefers-reduced-motion:reduce){.dash-view.active{animation:none}}
+
+/* Client portal uses a horizontal workspace rail instead of the marketing/admin sidebars. */
+.sidebar{position:sticky;top:0;inset:auto;width:100%;height:auto;min-height:72px;padding:12px 30px;flex-direction:row;align-items:center;gap:22px;border-right:0;border-bottom:1px solid #dce5f0;box-shadow:0 5px 24px #29466a08}
+.sidebar .brand{padding:0;white-space:nowrap}
+.workspace-label{display:none}
+.side-nav{flex:1;min-width:0;flex-direction:row;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none}
+.side-nav::-webkit-scrollbar{display:none}
+.side-link{white-space:nowrap;padding:10px 12px}
+.sidebar-bottom{margin:0;display:flex;align-items:center}
+.help-card{display:none}
+.profile{width:auto;border:0;padding:0 0 0 12px;border-left:1px solid #e1e8f1;white-space:nowrap}
+.profile-more{display:none}
+.dashboard-main{margin-left:0}
+.dash-topbar{height:58px;padding:0 30px;background:#f7f9fc}
+.dash-content{padding-top:28px}
+@media(max-width:1000px){.sidebar{padding:11px 18px;gap:14px}.side-link{padding:9px 10px;font-size:10px}.profile{padding-left:9px}.profile-avatar{width:28px;height:28px}}
+@media(max-width:700px){
+ .sidebar{position:sticky;top:0;transform:none!important;width:100%;min-height:0;height:auto;padding:10px 12px;display:flex;flex-wrap:wrap;gap:9px;box-shadow:0 5px 20px #29466a10}
+ .sidebar .brand{padding:0 4px 0 0;font-size:15px}
+ .sidebar .brand-mark{width:29px;height:29px}
+ .side-nav{order:3;flex-basis:100%;width:100%;overflow-x:auto;padding:3px 0 1px}
+ .side-link{padding:8px 10px;font-size:9px}
+ .sidebar-bottom{margin-left:auto}
+ .profile{padding:0;border:0}
+ .profile>span:nth-child(2){display:none}
+ .profile-avatar{width:29px;height:29px}
+ .dashboard-main{margin:0}
+ .dash-topbar{height:54px;padding:0 13px}
+ .dash-content{padding:16px 13px 35px}
+}
