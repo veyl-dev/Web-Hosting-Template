@@ -8,6 +8,6 @@ This is a static HTML, CSS, and JavaScript project. No build command, framework 
 4. Leave Build Command and Output Directory empty.
 5. Deploy.
 
-The landing page is `index.html`; the client dashboard preview is `dashboard.html`.
+The landing page is `index.html`; the customer portal preview is `dashboard.html`; the admin console preview is `admin-dashboard.html`.
 
 If you use a custom domain, point it to the Vercel project using the DNS records Vercel provides.
